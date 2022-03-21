@@ -1,0 +1,62 @@
+/* GOOGLE FONTS - IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway:wght@400&display=swap');
+
+/* =================== */
+/* GENERAL FORMATTING */
+/* =================== */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ================ */
+/* NAVIGATION BAR */
+/* ================ */
+.navbar {
+    transition: all 0.5s;
+    padding: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.btn {
+    color: yellow;
+}
+
+/* ================ */
+/* HOME */
+/* ================ */
+#home {
+    background-color: lightgrey;
+    padding: 100px 15px 15px 15px;
+}
+
+/* ================ */
+/* ABOUT */
+/* ================ */
+#about {
+    background-color: white;
+    padding: 15px;
+}
+
+/* ================ */
+/* REGISTER */
+/* ================ */
+#register {
+    background-color: lightgrey;
+    padding: 15px;
+}
+
+/* ================ */
+/* CONTACT US */
+/* ================ */
+#contact {
+    background-color: white;
+    padding: 15px;
+}
