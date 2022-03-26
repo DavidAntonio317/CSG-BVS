@@ -1,19 +1,11 @@
 /* GOOGLE FONTS - IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway:wght@400&display=swap');
 
 /* =================== */
 /* GENERAL FORMATTING */
 /* =================== */
 html {
     scroll-behavior: smooth;
-}
-
-h1 {
-    font-family: 'Poppins';
-}
-
-p, body, input, label, h5 {
-    font-family: 'DM Sans';
 }
 
 /* ================ */
@@ -41,7 +33,7 @@ p, body, input, label, h5 {
 /* HOME */
 /* ================ */
 #home {
-    background-color: white;
+    background-color: lightgrey;
     padding: 100px 15px 15px 15px;
 }
 
@@ -49,7 +41,7 @@ p, body, input, label, h5 {
 /* ABOUT */
 /* ================ */
 #about {
-    background-color: lightgrey;
+    background-color: white;
     padding: 15px;
 }
 
@@ -57,7 +49,7 @@ p, body, input, label, h5 {
 /* REGISTER */
 /* ================ */
 #register {
-    background-color: white;
+    background-color: lightgrey;
     padding: 15px;
 }
 
@@ -65,38 +57,8 @@ p, body, input, label, h5 {
 /* CONTACT US */
 /* ================ */
 #contact {
-    background-color: lightgrey;
-    padding: 15px;
-}
-
-/* ================ */
-/* REGISTRATION FORM */
-/* ================ */
-#registration-form {
     background-color: white;
-    padding: 50px 15px 15px 15px
-}
-
-::placeholder{
-    font-size: 10pt;
-    font-family: 'DM Sans';
-    opacity: 0.6;
-}
-
-#thin {
-    padding: 3px 15px;
-    margin: 5px 0px;
-}
-
-select {
-    padding: 5px 10px;
-}
-
-input[type=text], input[type=date] {
-    width: 100%;
-    padding: 8px 15px;
-    margin: 8px 0px;
-    box-sizing: border-box;
+    padding: 15px;
 }
 
 /* ================ */
@@ -129,3 +91,24 @@ input[type=text], input[type=date] {
 .image-upload>input {
     display: none;
   }
+  
+
+/* Password */  
+.pass{
+margin: -5px 0 20px 5px;
+color: #a6a6a6;
+cursor: pointer;
+}
+.pass:hover{
+text-decoration: underline;
+}
+
+.input-container input{
+    width: 100px;
+    height: 100px;
+  }
+  
+.form-control:focus{
+box-shadow: none !important;
+border: 1px solid;
+}
