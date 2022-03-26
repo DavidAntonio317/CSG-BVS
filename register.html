@@ -47,7 +47,7 @@
     <section id="registration-form">
         <form action="action_page.php">
             <div class="container">
-                <h1>COMELEC REGISTRATION FORM</h1>
+                <h1><b>COMELEC REGISTRATION FORM</b></h1>
                 <p>Please fill out this form to finish creating your account.</p>
                 <hr>
                 
@@ -78,23 +78,80 @@
                     <option value="8">8</option>
                 </select>
                 <br><br>
-
+                
+                <!-- OCCUPATION -->
                 <label for="occupation"><b>Profession / Occupation</b></label>
                 <br>
                 <input type="text" placeholder="i.e. Sales Manager" name="occupation" id="occupation" required>
                 <br><br>
 
-                <label for="psw-repeat"><b>Repeat Password</b></label>
-                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                <!-- TIN -->
+                <label for="TIN"><b>TIN</b></label>
+                <br>
+                <input type="text" name="TIN" id="TIN" placeholder="XXX-XXX-XXX">
+                <br><br>
+
+                <!-- CIVIL STATUS -->
+                <label for="status"><b>Civil Status</b></label>
+                <br>
+                <input type="radio" id="single" name="status" value="single">
+                <label for="single">Single</label>
+                <br>
+                <input type="radio" id="married" name="status" value="married">
+                <label for="naturalized">Married</label>
+                <input type="text" placeholder="Name of spouse, if married" name="spouse" id="thin">
+                <br><br>
+
+                <!-- NATURALIZED / REACQUIRED DETAILS -->
+                <h5><b>If naturalized / reacquired:</b></h5>
+                <label for="status">Date of Naturalization / Reacquisition</label>
+                <br>
+                <input type="date" id="acq-date" name="acq-date">
+                <br><br>
+                <label for="cert-no">Certificate Number / Order of Approval</label>
+                <br>
+                <input type="text" name="spouse" id="spouse">
+                <br><br>
+
+                <!-- IF ASSISTED -->
+                <h5><b>If assisted, select the applicable condition and who assisted:</b></h5>
+                <input type="radio" id="illiterate" name="assisted" value="illiterate">
+                <label for="illiterate">Illiterate</label>
+                <input type="radio" id="disablity" name="assisted" value="disability">
+                <label for="disability">Person with disability</label>
+                <input type="radio" id="indigenous" name="assisted" value="indigenous">
+                <label for="indigenous">Indigenous person</label>
+                <br>
+                <label for="assistant">Assisted by:</label>
+                <input type="text" placeholder="Name of Assistant" name="assistant" id="thin">
+                <br><br>
+
+                <!-- PERIOD OF RESIDENCE -->
+                <h5><b>Period of Residence</b></h5>
+                <label for="ct/mun">In the city/municipality</label>
+                <input type="text" name="mun-yrs" id="mun-yrs" placeholder="No. of years">
+                <input type="text" name="mun-mos" id="mun-mos" placeholder="No. of months">
+                <br><br>
+                <label for="country">In the Philippines</label>
+                <input type="text" name="country-yrs" id="country-yrs" placeholder="No. of years">
+                <input type="text" name="country-mos" id="country-mos" placeholder="No. of months">
+                <br>
+
                 <hr>
           
-                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-                <button type="submit" class="registerbtn">Register</button>
-            </div>
-          
-            <div class="container signin">
-              <p>Already have an account? <a href="#">Sign in</a>.</p>
+                <button type="submit" class="registerbtn">Next</button>
+                <a href="#"><button>Save and Exit</button></a>
             </div>
         </form>
+    </section>
+
+    <!-- CONTACT US -->
+    <section id="contact" class="d-flex">
+        <div class="container text-justify">
+            <div id="footer-content">
+                <h1><b>CONTACT US</b></h2>
+                <p>David Antonio, Mika Angeles, Kyle Bugayong</p>
+            </div>
+        </div>
     </section>
 </div>
