@@ -1,11 +1,19 @@
 /* GOOGLE FONTS - IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
 
 /* =================== */
 /* GENERAL FORMATTING */
 /* =================== */
 html {
     scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Poppins';
+}
+
+p, body, input, label, h5 {
+    font-family: 'DM Sans';
 }
 
 /* ================ */
@@ -33,7 +41,7 @@ html {
 /* HOME */
 /* ================ */
 #home {
-    background-color: lightgrey;
+    background-color: white;
     padding: 100px 15px 15px 15px;
 }
 
@@ -41,7 +49,7 @@ html {
 /* ABOUT */
 /* ================ */
 #about {
-    background-color: white;
+    background-color: lightgrey;
     padding: 15px;
 }
 
@@ -49,7 +57,7 @@ html {
 /* REGISTER */
 /* ================ */
 #register {
-    background-color: lightgrey;
+    background-color: white;
     padding: 15px;
 }
 
@@ -57,7 +65,7 @@ html {
 /* CONTACT US */
 /* ================ */
 #contact {
-    background-color: white;
+    background-color: lightgrey;
     padding: 15px;
 }
 
@@ -68,7 +76,30 @@ html {
     background-color: white;
     padding: 50px 15px 15px 15px
 }
-=======
+
+::placeholder{
+    font-size: 10pt;
+    font-family: 'DM Sans';
+    opacity: 0.6;
+}
+
+#thin {
+    padding: 3px 15px;
+    margin: 5px 0px;
+}
+
+select {
+    padding: 5px 10px;
+}
+
+input[type=text], input[type=date] {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+
+/* ================ */
 /* REGISTRATION SUBMITTED */
 /* ================ */
 #regsubmitted {
