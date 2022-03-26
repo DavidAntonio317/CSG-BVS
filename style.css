@@ -60,3 +60,37 @@ html {
     background-color: white;
     padding: 15px;
 }
+
+/* ================ */
+/* REGISTRATION SUBMITTED */
+/* ================ */
+#regsubmitted {
+    background-color: white;
+    padding: 100px 15px 15px 15px;
+}
+
+/* ================ */
+/* Column container */
+/* ================ */
+.column-container {
+    position: relative;
+}
+
+/* Bottom left text */
+.left-column {
+    position: relative;
+    bottom: 65px;
+}
+  
+/* Top left text */
+.right-column {
+    position: relative;
+    bottom: 115px;
+}
+  
+.image-upload>input {
+    display: none;
+  }
+  
+
+  
