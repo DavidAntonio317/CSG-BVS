@@ -60,3 +60,11 @@ html {
     background-color: white;
     padding: 15px;
 }
+
+/* ================ */
+/* REGISTRATION FORM */
+/* ================ */
+#registration-form {
+    background-color: white;
+    padding: 50px 15px 15px 15px
+}
